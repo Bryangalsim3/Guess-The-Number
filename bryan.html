@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="bryan.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Guess the Number Game</h1>
+        <p>Guess the number between 1 and 100</p>
+        <input type="number" id="guess" min="1" max="100" placeholder="Enter your guess">
+        <br>
+        <button onclick="makeGuess()">Submit Guess</button>
+        <br>
+        <button id="restartBtn" onclick="restartGame()">Restart Game</button>
+        <br>
+       <a href="Game.html"><button class="exit">Exit</button></a>
+        
+        <p id="message"></p>
+        <p id="prize"></p>
+    </div>
+    <script src="bryan2.js"></script>
+</body>
+</html>
+
